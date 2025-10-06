@@ -4,8 +4,8 @@ import { Link, NavLink } from "react-router-dom";
 // dati menù
 const links = [
     { path: '/', label: 'Home' },
-    { path: '/aboutUs', label: 'AboutUs' },
-    { path: '/CardShop', label: 'CardShop' }
+    { path: '/aboutUs', label: 'About Us' },
+    { path: '/CardShop', label: 'Negozio' }
 ]
 
 

@@ -13,19 +13,19 @@ import AboutUs from './assets/pages/AboutUs';
 import CardShop from './assets/pages/CardShop';
 
 function App() {
-  
+
 
   return (
     <>
-       <BrowserRouter>
-            <Routes>
-                <Route element={<Layout />}>
-                    <Route path="/" element={<HomePage />} />
-                    <Route path="/aboutUs" element={<AboutUs />} />
-                    <Route path="/CardShop" element={<CardShop />} />
-                </Route>
-            </Routes>
-        </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/aboutUs" element={<AboutUs />} />
+            <Route path="/CardShop" element={<CardShop />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

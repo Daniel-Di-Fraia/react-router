@@ -1,3 +1,4 @@
+//creiamo un componente a parte per le informazioni dei prodotti in una card
 export default function ProdCard(props) {
 
     const { prodotto } = props;
@@ -5,8 +6,10 @@ export default function ProdCard(props) {
     return (
         <div className="product" >
             <div className="product-image">
+                {/* immagini prodotti */}
                 <img src={prodotto.image} alt={prodotto.title} />
             </div>
+            {/* info prodotti */}
             <div className="product-info">
                 <p className="prod-name">{prodotto.title}</p>
                 <p className="prod-price">{prodotto.price + " €"}</p>
