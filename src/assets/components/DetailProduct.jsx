@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 // import dell'hook per il parametro
 import { useParams } from "react-router-dom";
 
+//import dell'hook per i link
 import { Link, NavLink } from "react-router-dom";
 
 
@@ -42,9 +43,9 @@ const DetailProduct = () => {
                 </ul>
             </div>
             <div className="center">
-            <Link className="back" to={`/CardShop`}>
-                Torna alla lista prodotti
-            </Link>
+                <Link className="back" to={`/CardShop`}>
+                    Torna alla lista prodotti
+                </Link>
             </div>
         </>
     )

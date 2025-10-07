@@ -174,11 +174,11 @@ main div {
     width: 60%;
     text-align: start;
     padding: 40px;
-    
+
 }
 
-.single-list li:first-child{
-    color:#00ff6a;
+.single-list li:first-child {
+    color: #00ff6a;
     font-size: 30px;
 }
 
@@ -196,14 +196,14 @@ main div {
 
 .list-price {
     font-size: 30px;
-    color:#00ff6a;
+    color: #00ff6a;
     margin-top: 18px;
 }
 
 .back {
-    background-color:#010e54;
+    background-color: #010e54;
     text-decoration: none;
-    color:#00ff6a;
+    color: #00ff6a;
     display: block;
     height: 50px;
     width: 240px;
