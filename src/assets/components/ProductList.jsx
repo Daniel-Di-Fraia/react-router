@@ -1,7 +1,7 @@
 //importiamo lo state e l'useEffect
 import { useState, useEffect } from "react";
 
-// importiamo il componente Card
+// importiamo il componente ProdCard
 import ProdCard from "../components/ProdCard";
 
 export default function ProductList() {

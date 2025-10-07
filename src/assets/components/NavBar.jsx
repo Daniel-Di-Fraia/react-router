@@ -1,7 +1,7 @@
 // import della parte di componenti di navigazione per routing
 import { Link, NavLink } from "react-router-dom";
 
-// dati menù
+// dati menù di navigazione pagina
 const links = [
     { path: '/', label: 'Home' },
     { path: '/aboutUs', label: 'About Us' },
@@ -14,7 +14,7 @@ const NavBar = () => {
         <nav>
             <ul>
                 {links.map(link => (
-                    <li>
+                    <li key={link.path}>
                         <NavLink to={link.path}>{link.label}</NavLink>
                     </li>
                 ))}

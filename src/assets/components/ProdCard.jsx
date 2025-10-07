@@ -13,6 +13,7 @@ export default function ProdCard(props) {
             <div className="product-info">
                 <p className="prod-name">{prodotto.title}</p>
                 <p className="prod-price">{prodotto.price + " €"}</p>
+                <p className="prod-type">{prodotto.category}</p>
             </div>
         </div>
     )
