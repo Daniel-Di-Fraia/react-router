@@ -14,7 +14,7 @@ body {
 /* Navbar */
 header {
     background-color: #010e54;
-    padding: 16px 24px;
+    padding: 30px 24px;
 }
 
 nav ul {
@@ -37,7 +37,7 @@ nav li a {
     color: #eee;
     text-decoration: none;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     padding: 6px 10px;
     border-radius: 4px;
     transition: background-color 0.2s ease, color 0.2s ease;
