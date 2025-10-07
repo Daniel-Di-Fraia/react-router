@@ -39,7 +39,7 @@ const DetailProduct = () => {
                     <li>{detailProd.title}</li>
                     <li className="list-category">{detailProd.category}</li>
                     <li className="list-description">{detailProd.description}</li>
-                    <li className="list-price">{detailProd.price + " €"}</li>
+                    <li className="list-price">{detailProd.price + " €"}<span id="buy">COMPRA ORA</span></li>
                 </ul>
             </div>
             <div className="center">
