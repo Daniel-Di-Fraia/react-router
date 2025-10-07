@@ -11,6 +11,7 @@ import Layout from './assets/layout/Layout';
 import HomePage from './assets/pages/HomePage';
 import AboutUs from './assets/pages/AboutUs';
 import CardShop from './assets/pages/CardShop';
+import InfoProduct from './assets/pages/InfoProduct';
 
 function App() {
 
@@ -22,7 +23,10 @@ function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<HomePage />} />
             <Route path="/aboutUs" element={<AboutUs />} />
-            <Route path="/CardShop" element={<CardShop />} />
+            <Route path="/CardShop">
+              <Route path="" element={<CardShop />} />
+              <Route path=":id" element={<InfoProduct />} />
+            </Route>
           </Route>
         </Routes>
       </BrowserRouter>
