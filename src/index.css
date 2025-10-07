@@ -58,6 +58,14 @@ nav li a.active {
     padding: 20px;
 }
 
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color:#010e54;
+    padding: 30px 0;
+    font-weight: 600;
+}
+
 /* Griglia prodotti */
 .products {
     display: flex;
@@ -129,15 +137,20 @@ main div {
 }
 
 .welcome {
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
     font-weight: 600;
     color: #010e54;
 }
 
 .container-welcome {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
+}
+
+.p-main {
+    margin-top: 40px;
+    font-size: 50px;
 }
 
 .prod-type {
