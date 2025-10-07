@@ -235,3 +235,10 @@ main div {
     transform: scale(1.05);
     transition: 1s ease;
 }
+
+/* error page */
+#not-found {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+}

@@ -6,6 +6,8 @@ import { useParams } from "react-router-dom";
 
 import { Link, NavLink } from "react-router-dom";
 
+
+
 const DetailProduct = () => {
 
     // recuperiamo (id) tramite il parametro dinamico
