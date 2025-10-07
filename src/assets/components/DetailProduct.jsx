@@ -28,19 +28,21 @@ const DetailProduct = () => {
 
     return (
         <>
-            <div>
-                <div>
-                    <img src={detailProd.image} alt={detailProd.title} />
+            <div className="flex-row">
+                <div className="img-cont">
+                    <img id="single-pic" src={detailProd.image} alt={detailProd.title} />
                 </div>
-                <div>
-                    <p>{detailProd.title}</p>
-                    <p>{detailProd.price + " €"}</p>
-                    <p>{detailProd.category}</p>
-                    <p>{detailProd.description}</p>
-                    <Link to={`/CardShop`}>
-                        Torna alla lista prodotti
-                    </Link>
-                </div>
+                <ul className="single-list">
+                    <li>{detailProd.title}</li>
+                    <li className="list-category">{detailProd.category}</li>
+                    <li className="list-description">{detailProd.description}</li>
+                    <li className="list-price">{detailProd.price + " €"}</li>
+                </ul>
+            </div>
+            <div className="center">
+            <Link className="back" to={`/CardShop`}>
+                Torna alla lista prodotti
+            </Link>
             </div>
         </>
     )

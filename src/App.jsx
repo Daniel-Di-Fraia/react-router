@@ -12,6 +12,7 @@ import HomePage from './assets/pages/HomePage';
 import AboutUs from './assets/pages/AboutUs';
 import CardShop from './assets/pages/CardShop';
 import InfoProduct from './assets/pages/InfoProduct';
+import Error from './assets/pages/Error';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
               <Route path="" element={<CardShop />} />
               <Route path=":id" element={<InfoProduct />} />
             </Route>
+            <Route path="*" element={<Error />} />
           </Route>
         </Routes>
       </BrowserRouter>
